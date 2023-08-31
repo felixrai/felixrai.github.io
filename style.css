@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(to right,#ac54eb 50%,#9acbe5 50%);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    color: aliceblue;
+}
+
+.menu {
+    display: flex;
+    gap: 32px;
+}
+
+.principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 74px;
+}
+
+.minhafoto {
+    height: 200px;
+    border-radius: 50%;
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px; 
+    margin-top: -45px;
+    color: aliceblue;
+}
+
+.partebaixa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: aliceblue;
+ 
+}
+
