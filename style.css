@@ -18,11 +18,14 @@ body {
     justify-content: space-around;
     padding: 24px;
     color: aliceblue;
+    font-size: 20px
 }
 
 .menu {
     display: flex;
     gap: 32px;
+    font-size: 20px
+   
 }
 
 .principal {
@@ -45,6 +48,7 @@ body {
     gap: 14px; 
     margin-top: -45px;
     color: aliceblue;
+   font-size: 20px
 }
 
 .partebaixa {
@@ -55,6 +59,6 @@ body {
   bottom: 0;
   width: 100%;
   color: aliceblue;
- 
+   
 }
 
